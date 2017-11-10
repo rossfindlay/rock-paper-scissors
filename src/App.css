@@ -1,0 +1,11 @@
+.countdown-format {
+  font-size: 400px;
+  position: relative;
+  background-color: white;
+  display: block;
+  text-align: center;
+  border-color: black;
+  border-width: 10px;
+  border-style: solid;
+
+}
