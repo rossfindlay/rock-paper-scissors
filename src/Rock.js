@@ -13,7 +13,9 @@ class Rock extends Component {
 
   render() {
     return (
-      <div onClick={this.handleClick}>
+      <div
+        class="weapon rock"
+        onClick={this.handleClick}>
         Rock
       </div>
     )

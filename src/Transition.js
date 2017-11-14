@@ -21,24 +21,20 @@ class Transition extends Component {
 
   countdown() {
     setTimeout(() => {
-      console.log('3')
       this.setState({
         showThree: true
       })
       setTimeout(() => {
-        console.log('2')
         this.setState({
           showThree: false,
           showTwo: true
         })
         setTimeout(() => {
-          console.log('1')
           this.setState({
             showTwo: false,
             showOne: true
           })
           setTimeout(() => {
-            console.log('0')
             this.setState({
               showOne: false,
               showGo: true

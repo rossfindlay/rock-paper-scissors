@@ -13,7 +13,9 @@ class Paper extends Component {
 
   render() {
     return (
-      <div onClick={this.handleClick}>
+      <div
+        class="weapon paper"
+        onClick={this.handleClick}>
         Paper
       </div>
     )

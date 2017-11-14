@@ -13,7 +13,9 @@ class Scissors extends Component {
 
   render() {
     return (
-      <div onClick={this.handleClick}>
+      <div
+        class="weapon scissors"
+        onClick={this.handleClick}>
         Scissors
       </div>
     )
